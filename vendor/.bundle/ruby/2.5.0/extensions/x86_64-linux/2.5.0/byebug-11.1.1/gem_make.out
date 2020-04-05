@@ -1,5 +1,5 @@
 current directory: /home/eduard/dev/recipeme_api_v1/vendor/.bundle/ruby/2.5.0/gems/byebug-11.1.1/ext/byebug
-/usr/bin/ruby2.5 -r ./siteconf20200405-27287-1gk34dq.rb extconf.rb
+/home/eduard/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20200405-6660-1ij5w8q.rb extconf.rb
 creating Makefile
 
 current directory: /home/eduard/dev/recipeme_api_v1/vendor/.bundle/ruby/2.5.0/gems/byebug-11.1.1/ext/byebug
@@ -16,4 +16,4 @@ linking shared-object byebug/byebug.so
 
 current directory: /home/eduard/dev/recipeme_api_v1/vendor/.bundle/ruby/2.5.0/gems/byebug-11.1.1/ext/byebug
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 byebug.so ./.gem.20200405-27287-154zrz2/byebug
+/usr/bin/install -m 0755 byebug.so ./.gem.20200405-6660-1frcsre/byebug

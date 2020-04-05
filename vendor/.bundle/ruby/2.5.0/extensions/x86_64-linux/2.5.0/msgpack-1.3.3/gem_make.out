@@ -1,5 +1,5 @@
 current directory: /home/eduard/dev/recipeme_api_v1/vendor/.bundle/ruby/2.5.0/gems/msgpack-1.3.3/ext/msgpack
-/usr/bin/ruby2.5 -r ./siteconf20200405-27287-n4wyls.rb extconf.rb
+/home/eduard/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20200405-6660-11hz6xu.rb extconf.rb
 checking for ruby/st.h... yes
 checking for st.h... yes
 checking for rb_str_replace() in ruby.h... yes
@@ -30,6 +30,10 @@ packer_ext_registry.h:129:9: warning: ‘lookup_class’ may be used uninitializ
 packer_ext_registry.h:85:11: note: ‘lookup_class’ was declared here
      VALUE lookup_class;
            ^~~~~~~~~~~~
+packer.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
 compiling packer_class.c
 compiling packer_ext_registry.c
 compiling rbinit.c
@@ -39,9 +43,12 @@ compiling unpacker_class.c
 unpacker_class.c:216:14: warning: ‘Unpacker_peek_next_type’ defined but not used [-Wunused-function]
  static VALUE Unpacker_peek_next_type(VALUE self)
               ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
 compiling unpacker_ext_registry.c
 linking shared-object msgpack/msgpack.so
 
 current directory: /home/eduard/dev/recipeme_api_v1/vendor/.bundle/ruby/2.5.0/gems/msgpack-1.3.3/ext/msgpack
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 msgpack.so ./.gem.20200405-27287-rxz48p/msgpack
+/usr/bin/install -m 0755 msgpack.so ./.gem.20200405-6660-cagu2e/msgpack
