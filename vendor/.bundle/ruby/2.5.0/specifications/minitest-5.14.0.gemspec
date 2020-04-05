@@ -19,23 +19,23 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT".freeze]
   s.rdoc_options = ["--main".freeze, "README.rdoc".freeze]
   s.required_ruby_version = Gem::Requirement.new("~> 2.2".freeze)
-  s.rubygems_version = "2.7.8".freeze
+  s.rubygems_version = "2.7.7".freeze
   s.summary = "minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking".freeze
 
-  s.installed_by_version = "2.7.8" if s.respond_to? :installed_by_version
+  s.installed_by_version = "2.7.7" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<rdoc>.freeze, [">= 4.0", "< 7"])
+      s.add_development_dependency(%q<rdoc>.freeze, ["< 7", ">= 4.0"])
       s.add_development_dependency(%q<hoe>.freeze, ["~> 3.21"])
     else
-      s.add_dependency(%q<rdoc>.freeze, [">= 4.0", "< 7"])
+      s.add_dependency(%q<rdoc>.freeze, ["< 7", ">= 4.0"])
       s.add_dependency(%q<hoe>.freeze, ["~> 3.21"])
     end
   else
-    s.add_dependency(%q<rdoc>.freeze, [">= 4.0", "< 7"])
+    s.add_dependency(%q<rdoc>.freeze, ["< 7", ">= 4.0"])
     s.add_dependency(%q<hoe>.freeze, ["~> 3.21"])
   end
 end
