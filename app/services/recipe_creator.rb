@@ -1,17 +1,9 @@
 class RecipeCreator
-  def initialize(params={}, user=nil)
-    @user = user
+  def initialize(params={})
     @params = params
   end
 
   def create
-    params = permit_params
-    @recipe = Recipe.create!(params)
-  end
-
-  private
-
-  def permit_params
-    @params.permit!(:name, :description, :user_id)
+    @recipe = Recipe.create!(@params)
   end
 end
