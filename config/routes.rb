@@ -6,7 +6,11 @@ Rails.application.routes.draw do
           post 'signup', to: 'users#create'
         end
       end
-      resources :recipes
+      resources :recipes do
+        collection do
+          get :popular, to: 'recipes#popular'
+        end
+      end
       resources :sessions, only: [:new, :create, :destroy] do
         collection do
           get 'login', to: 'sessions#create'

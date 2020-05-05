@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_29_193245) do
+ActiveRecord::Schema.define(version: 2020_05_03_172315) do
 
   create_table "images", force: :cascade do |t|
     t.string "url", null: false
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 2020_04_29_193245) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "image"
+    t.integer "likes", default: 0
     t.index ["user_id"], name: "index_recipes_on_user_id"
   end
 

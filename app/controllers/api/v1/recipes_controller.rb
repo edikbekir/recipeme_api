@@ -13,6 +13,12 @@ class Api::V1::RecipesController < ApplicationController
     render json: { data: @recipe, notice: "Recipe has been created", status: 200 }
   end
 
+  def popular
+    @recipes = Recipe.popular
+
+    render json: { data: @recipes, notice: "Popular recipes", status: 200 }
+  end
+
   private
 
   def permit_params
