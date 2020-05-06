@@ -4,5 +4,4 @@ class User < ApplicationRecord
   validates :email, presence: true, uniqueness: true
 
   has_many :recipes
-  has_one :image
 end

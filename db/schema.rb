@@ -10,13 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_03_172315) do
-
-  create_table "images", force: :cascade do |t|
-    t.string "url", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 2020_05_05_182411) do
 
   create_table "ingredients", force: :cascade do |t|
     t.string "quantity"
@@ -24,13 +18,15 @@ ActiveRecord::Schema.define(version: 2020_05_03_172315) do
     t.integer "recipe_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "type_id"
     t.index ["recipe_id"], name: "index_ingredients_on_recipe_id"
+    t.index ["type_id"], name: "index_ingredients_on_type_id"
   end
 
   create_table "recipes", force: :cascade do |t|
     t.integer "user_id", null: false
     t.string "name", null: false
-    t.text "description", null: false
+    t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "image"
@@ -45,6 +41,10 @@ ActiveRecord::Schema.define(version: 2020_05_03_172315) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["recipe_id"], name: "index_steps_on_recipe_id"
+  end
+
+  create_table "types", force: :cascade do |t|
+    t.string "name"
   end
 
   create_table "users", force: :cascade do |t|

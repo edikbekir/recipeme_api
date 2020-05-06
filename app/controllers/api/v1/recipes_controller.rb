@@ -7,6 +7,10 @@ class Api::V1::RecipesController < ApplicationController
     render json: { notice: 'Recipes', data: @recipes }, status: 200
   end
 
+  def show
+    @recipe = Recipe.find(params[:id])
+  end
+
   def create
     @recipe = RecipeCreator.new(permit_params).create
 
