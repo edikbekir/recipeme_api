@@ -26,6 +26,7 @@ class Api::V1::RecipesController < ApplicationController
   private
 
   def permit_params
+    debugger
     params.permit(:name, :description, :image).merge({ user_id: @current_user.id })
   end
 

@@ -11,6 +11,11 @@ Rails.application.routes.draw do
           get :popular, to: 'recipes#popular'
         end
       end
+      resources :types do
+        member do
+          resources :products, only: [:index], param: :type_id
+        end
+      end
       resources :sessions, only: [:new, :create, :destroy] do
         collection do
           get 'login', to: 'sessions#create'

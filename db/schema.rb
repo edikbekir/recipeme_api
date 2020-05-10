@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_05_182411) do
+ActiveRecord::Schema.define(version: 2020_05_09_154137) do
 
   create_table "ingredients", force: :cascade do |t|
     t.string "quantity"
@@ -21,6 +21,19 @@ ActiveRecord::Schema.define(version: 2020_05_05_182411) do
     t.integer "type_id"
     t.index ["recipe_id"], name: "index_ingredients_on_recipe_id"
     t.index ["type_id"], name: "index_ingredients_on_type_id"
+  end
+
+  create_table "products", force: :cascade do |t|
+    t.string "title"
+    t.float "price"
+    t.integer "rating"
+    t.string "measurement"
+    t.integer "quantity"
+    t.integer "type_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "image"
+    t.index ["type_id"], name: "index_products_on_type_id"
   end
 
   create_table "recipes", force: :cascade do |t|
@@ -45,6 +58,7 @@ ActiveRecord::Schema.define(version: 2020_05_05_182411) do
 
   create_table "types", force: :cascade do |t|
     t.string "name"
+    t.string "image"
   end
 
   create_table "users", force: :cascade do |t|
