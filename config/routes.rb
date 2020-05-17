@@ -9,6 +9,7 @@ Rails.application.routes.draw do
       resources :recipes do
         collection do
           get :popular, to: 'recipes#popular'
+          get :autocomplete, to: 'recipes#autocomplete'
         end
       end
       resources :types do

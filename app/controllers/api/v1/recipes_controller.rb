@@ -23,10 +23,17 @@ class Api::V1::RecipesController < ApplicationController
     render json: { data: @recipes, notice: "Popular recipes", status: 200 }
   end
 
+  def autocomplete
+    return render json: { data: [], notice: "Please enter a valid search query", status: 400 } if params[:query].blank?
+
+    @recipes = AutocompleteService.search(params[:query], Recipe, "name")
+
+    render json: { data: @recipes, notice: "Recipes", status: 200 }
+  end
+
   private
 
   def permit_params
-    debugger
     params.permit(:name, :description, :image).merge({ user_id: @current_user.id })
   end
 
