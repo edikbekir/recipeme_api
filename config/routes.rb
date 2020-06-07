@@ -23,6 +23,17 @@ Rails.application.routes.draw do
           get 'logout', to: 'sessions#destroy'
         end
       end
+      resources :recognitions do
+        collection do
+          get 'recipes', to: 'recognitions#recipes'
+        end
+      end
+      resources :recipes_api do
+        collection do
+          get 'ingredients', to: 'recipes_api#ingredients'
+          get 'instructions', to: 'recipes_api#instructions'
+        end
+      end
     end
   end
 end

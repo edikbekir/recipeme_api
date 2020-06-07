@@ -9,6 +9,7 @@ gem 'puma', '~> 3.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'dotenv-rails'
 end
 
 group :development do
@@ -22,3 +23,4 @@ gem 'rack-cors'
 gem 'carrierwave', '~> 2.0'
 gem 'cloudinary'
 gem 'jbuilder'
+gem 'ibm_watson'

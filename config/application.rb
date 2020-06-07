@@ -13,6 +13,9 @@ require "action_cable/engine"
 # require "sprockets/railtie"
 require "rails/test_unit/railtie"
 require "carrierwave"
+require "json"
+require "ibm_watson/authenticators"
+require "ibm_watson/visual_recognition_v3"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
