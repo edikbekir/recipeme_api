@@ -1,7 +1,7 @@
 json.id @recipe.id
 json.description @recipe.description
 json.name @recipe.name
-json.image_url @recipe.image.url
+json.image_url @recipe.image
 json.likes @recipe.likes
 json.user @recipe.user
 json.ingredients @recipe.ingredients do |ingredient|

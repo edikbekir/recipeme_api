@@ -26,6 +26,7 @@ Rails.application.routes.draw do
       resources :recognitions do
         collection do
           get 'recipes', to: 'recognitions#recipes'
+          get 'recipes_by_video', to: 'recognitions#recipes_by_video'
         end
       end
       resources :recipes_api do

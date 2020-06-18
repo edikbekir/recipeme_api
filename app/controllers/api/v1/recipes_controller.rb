@@ -19,8 +19,6 @@ class Api::V1::RecipesController < ApplicationController
 
   def popular
     @recipes = Recipe.popular
-
-    render json: { data: @recipes, notice: "Popular recipes", status: 200 }
   end
 
   def autocomplete

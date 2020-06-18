@@ -1,5 +1,5 @@
 class Recipe < ApplicationRecord
-  mount_uploader :image, ImageUploader
+  # mount_uploader :image, ImageUploader
 
   QUANTITY_POPULAR_RECIPES = 20.freeze
 

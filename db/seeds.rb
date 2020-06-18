@@ -25,20 +25,22 @@ food_types.each do |type|
 end
 Type.create!(name: "other", image: nil)
 
-# products.each do |product_record|
-#   Product.create!(
-#     rating:product_record['rating'],
-#     price: product_record['price'],
-#     rating: product_record['rating'],
-#     measurement: product_record['measurement'],
-#     quantity: product_record['quantity']
-#   )
-# end
+products.each do |product_record|
+  Product.create!(
+    price: product_record['price'],
+    rating: product_record['rating'],
+    measurement: product_record['measurement'],
+    quantity: product_record['quantity'],
+    title: product_record['title'],
+    image: product_record['image'],
+    type: Type.find_by_name(product_record['type'])
+  )
+end
 
 recipes.each do |recipe_record|
   name = recipe_record['name']
   description = recipe_record['description']
-  recipe = Recipe.new(name: name, user: user, image: { url: recipe_record['imageURL'] })
+  recipe = Recipe.new(name: name, user: user, image: recipe_record['imageURL'])
   ingredients = recipe_record['ingredients']
   steps = recipe_record['steps']
   ingredients.each do |ingredient_record|

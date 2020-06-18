@@ -4,348 +4,166 @@
   "price": 28.1,
   "rating": 4,
   "measurement": "piece",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://www.realmomnutrition.com/wp-content/uploads/Egg-Myths-2.jpg"
 }, {
   "title": "Sweet fresh stawberry",
   "type": "fruits",
   "price": 29.45,
   "rating": 4,
   "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://5.imimg.com/data5/NU/LD/MY-36158633/sweet-strawberry-500x500.jpg"
 }, {
   "title": "Asparagus",
   "type": "vegetables",
   "price": 18.95,
   "rating": 3,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Green smoothie",
-  "type": "vegetables",
-  "price": 17.68,
-  "rating": 4,
-  "measurement": "l",
-  "quantity": 1
-}, {
-  "title": "Raw legums",
-  "type": "vegetables",
-  "price": 17.11,
-  "rating": 2,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Baking cake",
-  "type": "dairy",
-  "price": 11.14,
-  "rating": 4,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Pesto with basil",
-  "type": "vegetables",
-  "price": 18.19,
-  "rating": 2,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Hazelnut in black ceramic bowl",
-  "type": "nuts",
-  "price": 27.35,
-  "rating": 0,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Fresh stawberry",
-  "type": "fruits",
-  "price": 28.59,
-  "rating": 4,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Lemon and salt",
-  "type": "fruits",
-  "price": 15.79,
-  "rating": 5,
-  "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/18/09/1519653347-delish-roasted-asparagus-1.jpg"
 }, {
   "title": "Homemade bread",
   "type": "bakery",
   "price": 17.48,
   "rating": 3,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Legums",
-  "type": "vegetables",
-  "price": 14.77,
-  "rating": 0,
-  "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/homemade-bread-horizontal-1547759080.jpg"
 }, {
   "title": "Fresh tomato",
   "type": "vegetables",
   "price": 16.3,
   "rating": 2,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Healthy breakfast",
-  "type": "fruits",
-  "price": 13.02,
-  "rating": 2,
-  "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://ojofoodstock.com/wp-content/uploads/2019/08/fresh-tomato.jpg"
 }, {
   "title": "Green beans",
   "type": "vegetables",
   "price": 28.79,
   "rating": 1,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Baked stuffed portabello mushrooms",
-  "type": "bakery",
-  "price": 20.31,
-  "rating": 1,
-  "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/8/10/0/Thanksgiving-2011_NY0106-green-beans-lemon-garlic_s4x3.jpg.rend.hgtvcom.406.305.suffix/1382540632130.jpeg"
 }, {
   "title": "Strawberry jelly",
   "type": "fruits",
   "price": 14.18,
   "rating": 1,
   "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://i1.wp.com/practicalselfreliance.com/wp-content/uploads/2019/06/strawberry-Jelly-17.jpg?resize=480%2C360&ssl=1"
 }, {
   "title": "Pears juice",
   "type": "fruits",
   "price": 19.49,
   "rating": 4,
-  "measurement": "kg",
-  "quantity": 1
+  "measurement": "l",
+  "quantity": 1,
+  "image": "https://previews.123rf.com/images/karandaev/karandaev1201/karandaev120100032/12000086-pear-juice-and-white-pears-isolated-on-white-background.jpg"
 }, {
   "title": "Fresh pears",
   "type": "fruits",
   "price": 15.12,
   "rating": 5,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Caprese salad",
-  "type": "vegetables",
-  "price": 16.76,
-  "rating": 5,
-  "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "http://www.mottsfresh.com/wp-content/uploads/2016/03/Pears864x573.jpg"
 }, {
   "title": "Oranges",
   "type": "fruits",
   "price": 21.48,
   "rating": 4,
   "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/272/272782/oranges-in-a-box.jpg?w=1155&h=1444"
 }, {
-  "title": "Vegan food",
-  "type": "vegetables",
-  "price": 29.66,
-  "rating": 4,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Breakfast with muesli",
+  "title": "Muesli",
   "type": "dairy",
   "price": 22.7,
   "rating": 2,
   "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/71EiyEWtK%2BL._AC_SX569_.jpg"
 }, {
   "title": "Honey",
   "type": "bakery",
   "price": 17.01,
   "rating": 2,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Breakfast with cottage",
-  "type": "fruits",
-  "price": 14.05,
-  "rating": 1,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Strawberry smoothie",
-  "type": "fruits",
-  "price": 28.86,
-  "rating": 2,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Strawberry and mint",
-  "type": "fruits",
-  "price": 26.21,
-  "rating": 4,
-  "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://images.indianexpress.com/2019/12/Honey_1200.jpg"
 }, {
   "title": "Ricotta",
   "type": "dairy",
   "price": 27.81,
   "rating": 5,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Cuban sandwiche",
-  "type": "bakery",
-  "price": 18.5,
-  "rating": 4,
-  "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://www.thepkpway.com/wp-content/uploads/2016/12/how-to-make-ricotta-cheese-5f.jpg"
 }, {
   "title": "Granola",
   "type": "dairy",
   "price": 29.97,
   "rating": 3,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Smoothie with chia seeds",
-  "type": "fruits",
-  "price": 25.26,
-  "rating": 5,
-  "measurement": "kg",
-  "quantity": 1
-}, {
+  "quantity": 1,
+  "image": "https://klopotenko.com/wp-content/uploads/2017/11/Granola_siteWeb.jpg"
+},{
   "title": "Yogurt",
   "type": "dairy",
   "price": 27.61,
   "rating": 4,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Sandwich with salad",
-  "type": "vegetables",
-  "price": 22.48,
-  "rating": 5,
-  "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Turkish_strained_yogurt.jpg/220px-Turkish_strained_yogurt.jpg"
 }, {
   "title": "Cherry",
   "type": "fruits",
   "price": 14.35,
   "rating": 5,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Raw asparagus",
-  "type": "vegetables",
-  "price": 22.97,
-  "rating": 4,
-  "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://kokos.com.ua/content/images/32/e-liquid-mrblack-vishnya-cherry-15ml-0mg-44517138848702.jpg"
 }, {
   "title": "Corn",
   "type": "vegetables",
   "price": 13.55,
   "rating": 2,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Vegan",
-  "type": "vegan",
-  "price": 28.96,
-  "rating": 5,
-  "measurement": "kg",
-  "quantity": 1
-}, {
+  "quantity": 1,
+  "image": "https://www.simplyhappyfoodie.com/wp-content/uploads/2018/04/instant-pot-corn-on-the-cob-1-500x500.jpg"
+},{
   "title": "Fresh blueberries",
   "type": "fruits",
   "price": 21.01,
   "rating": 4,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Smashed avocado",
-  "type": "fruits",
-  "price": 25.88,
-  "rating": 0,
-  "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://st.depositphotos.com/2370557/4239/i/950/depositphotos_42394205-stock-photo-fresh-blueberries.jpg"
 }, {
   "title": "Italian ciabatta",
   "type": "bakery",
   "price": 15.18,
   "rating": 1,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Rustic breakfast",
-  "type": "dairy",
-  "price": 21.32,
-  "rating": 0,
-  "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://s23991.pcdn.co/wp-content/uploads/2017/02/ciabatta-recipe-fp.jpg"
 }, {
   "title": "Sliced lemons",
   "type": "fruits",
   "price": 27.14,
   "rating": 2,
   "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://previews.123rf.com/images/viktarmalyshchyts/viktarmalyshchyts1202/viktarmalyshchyts120200112/12670812-sliced-lemons.jpg"
 }, {
   "title": "Plums",
   "type": "fruits",
   "price": 19.18,
   "rating": 1,
   "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "French fries",
-  "type": "bakery",
-  "price": 18.32,
-  "rating": 3,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Strawberries",
-  "type": "fruits",
-  "price": 15.13,
-  "rating": 3,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Ground beef meat burger",
-  "type": "meat",
-  "price": 11.73,
-  "rating": 5,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Tomatoes",
-  "type": "fruits",
-  "price": 26.03,
-  "rating": 4,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Basil",
-  "type": "vegetables",
-  "price": 15.19,
-  "rating": 4,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "fruitss bouquet",
-  "type": "fruits",
-  "price": 18.18,
-  "rating": 1,
-  "measurement": "kg",
-  "quantity": 1
-}, {
-  "title": "Peaches on branch",
-  "type": "fruits",
-  "price": 25.62,
-  "rating": 3,
-  "measurement": "kg",
-  "quantity": 1
+  "quantity": 1,
+  "image": "https://media.mnn.com/assets/images/2018/06/plums.jpg.1440x960_q100_crop-scale_upscale.jpg"
 }]

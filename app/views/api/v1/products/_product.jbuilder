@@ -4,5 +4,5 @@ json.price product.price
 json.rating product.rating
 json.measurement product.measurement
 json.quantity product.quantity
-json.image product.image.url
+json.image product.image
 json.type product.type
